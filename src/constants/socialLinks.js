@@ -26,7 +26,7 @@ const data = [
   {
     id: 4,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "facebook.com/karlos.encalada.3/",
+    url: "https://www.facebook.com/karlos.encalada.3/",
   },
   {
     id: 5,

@@ -4,8 +4,25 @@ import { FaAngleDoubleRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 
+const query = graphql`
+  {
+    allStrapiJobs(sort: {fields: strapiId, order: DESC}) {
+      nodes {
+        company
+        date
+        position
+        desc {
+          id
+          name
+        }
+      }
+    }
+  }
+`
+
+
 const Jobs = () => {
-  return <h2>jobs component</h2>
+  return <h2>Jobs</h2>
 }
 
 export default Jobs

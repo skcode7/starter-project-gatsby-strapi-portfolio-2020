@@ -9,7 +9,7 @@ const contact = () => {
       <a href="https://t.me/karlosrocker" className="social-link">
         <FaTelegramPlane className="social-icon"></FaTelegramPlane>
       </a>
-      <a href="https://wa.me/59399594717" className="social-link">
+      <a href="https://wa.me/593963414955" className="social-link">
         <FaWhatsapp className="social-icon"></FaWhatsapp>
       </a>
     </div>
